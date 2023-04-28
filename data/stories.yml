@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+
+- story: hr question
+  steps:
+  - intent: helpdesk
+  - action: utter_hr
+
+
+- story: eng question
+  steps:
+  - intent: engineering
+  - action: utter_eng
+
+
+

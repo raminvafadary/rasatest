@@ -1,0 +1,23 @@
+version: "3.1"
+
+nlu:
+- intent: helpdesk
+  examples: |
+    - need hr assistant?
+    - how many leave days left?
+    - who is my manger?
+    - talk with hr?
+    - connect me with hr
+    - hr help
+    - sick days
+    - leave balance
+
+- intent: engineering
+  examples: |
+    - need engineering help?
+    - have engineering question?
+    - help me with eng
+    - eng
+    - connect me with eng team
+    - eng help
+    - have an engineering question

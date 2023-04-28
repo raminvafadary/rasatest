@@ -1,0 +1,13 @@
+version: "3.1"
+
+rules:
+
+- rule: say hr answer
+  steps:
+  - intent: helpdesk
+  - action: utter_hr
+
+- rule: say eng answer
+  steps:
+  - intent: engineering
+  - action: utter_eng

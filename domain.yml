@@ -1,0 +1,19 @@
+version: "3.1"
+
+intents:
+  - engineering
+  - helpdesk
+
+responses:
+  utter_eng:
+  - text: "please let me know what engineering question do you have?"
+
+  utter_hr:
+  - text: "please let me know what hr question do you have?"
+    
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
